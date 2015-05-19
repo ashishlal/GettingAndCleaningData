@@ -21,12 +21,14 @@ The data follows principles of tidy data -
 How all of the scripts work and how they are connected.  
 =======================================================
 1. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+
 A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The following files from the original data set are used in creating the tidy_data.
+2. The following files from the original data set are used in creating the tidy_data.
 
 test\subject_test.txt
 test\y_test.txt
@@ -37,7 +39,7 @@ train\X_train.txt
 features.txt
 activity_labels.txt
 
-The following are the submission files -
-run_analysis.R - R script used to create tidy data
-README.md - this file
-CodeBook.md - a code book that describes the variables, the data, and any transformations or work that performed to clean up the data 
+3. The following are the submission files -
+	a. run_analysis.R - R script used to create tidy data
+	b. README.md - this file
+	c. CodeBook.md - a code book that describes the variables, the data, and any transformations or work that performed to clean up the data 
