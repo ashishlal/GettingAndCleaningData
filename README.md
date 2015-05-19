@@ -20,26 +20,25 @@ The data follows principles of tidy data -
 
 How all of the scripts work and how they are connected.  
 =======================================================
-1. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
-
-A full description is available at the site where the data was obtained: 
+1. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project: 
+2. Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-2. The following files from the original data set are used in creating the tidy_data.
+3. The following files from the original data set are used in creating the tidy_data-
 
-test\subject_test.txt
-test\y_test.txt
-test\X_test.txt
-train\subject_train.txt
-train\y_train.txt
-train\X_train.txt
-features.txt
-activity_labels.txt
+1. test\subject_test.txt
+2. test\y_test.txt
+3. test\X_test.txt
+4. train\subject_train.txt
+5. train\y_train.txt
+6. train\X_train.txt
+7. features.txt
+8. activity_labels.txt
 
-3. The following are the submission files -
-	a. run_analysis.R - R script used to create tidy data
-	b. README.md - this file
-	c. CodeBook.md - a code book that describes the variables, the data, and any transformations or work that performed to clean up the data 
+4. The following are the submission files -
+
+a. run_analysis.R - R script used to create tidy data
+b. README.md - this file
+c. CodeBook.md - a code book that describes the variables, the data, and any transformations or work that performed to clean up the data 
