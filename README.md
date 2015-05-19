@@ -26,12 +26,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 2. Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-3. The following are the submission files -
+3. The following are the submission files:
 run_analysis.R: R script used to create tidy data
 README.md: this file
 cCodeBook.md: a code book that describes the variables, the data, and any transformations or work that performed to clean up the data 
 
-4. The following files from the original data set are used in creating the tidy_data-
+4. The following files from the original data set are used in creating the tidy_data:
 test\subject_test.txt
 test\y_test.txt
 test\X_test.txt
