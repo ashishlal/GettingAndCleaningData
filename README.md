@@ -28,14 +28,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 3. The following files from the original data set are used in creating the tidy_data-
 
-1. test\subject_test.txt
-2. test\y_test.txt
-3. test\X_test.txt
-4. train\subject_train.txt
-5. train\y_train.txt
-6. train\X_train.txt
-7. features.txt
-8. activity_labels.txt
+test\subject_test.txt
+test\y_test.txt
+test\X_test.txt
+train\subject_train.txt
+train\y_train.txt
+train\X_train.txt
+features.txt
+activity_labels.txt
 
 4. The following are the submission files -
 
