@@ -28,7 +28,7 @@ activity_train = read.table("train\\y_train.txt")
 activity_test = read.table("test\\y_test.txt")
 activity <- rbind(activity_train, activity_test)
 subject_train = read.table("train\\subject_train.txt")
-subject_test = read.table("train\\subject_test.txt")
+subject_test = read.table("test\\subject_test.txt")
 subject <- rbind(subject_train, subject_test)
 names(activity)[names(activity) == 'V1'] <- 'activity'
 names(subject)[names(subject) == 'V1'] <- 'subject'
